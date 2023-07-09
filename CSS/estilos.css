@@ -1,0 +1,365 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/*pagina principal*/
+.logo {
+    width: 100px;
+    margin: auto;
+}
+
+.menu-color {
+    text-decoration: underline;
+    color: whitesmoke;
+    
+
+}
+
+.menu-color:hover {
+    color: blue;
+}
+
+.dropdown-menu {
+    background-color: gray;
+    overflow: auto;
+    height: auto;
+
+}
+.navbar-toggler{
+    background-color: gray;
+    }
+.imagen-principal{
+    width: 88.8rem;
+}
+ul {
+   
+    background-color: black;
+    font-size: x-large;
+    height: 60px;
+
+}
+
+.buscador {
+    height: 10rem;
+    width: 50rem;
+    position: absolute;
+    top: 60rem;
+    right: 10rem;
+
+}
+
+.caja-buscador {
+    padding: 5px 100px;
+    text-align: left;
+}
+
+.boton-busqueda {
+    padding: 4px 20px;
+}
+
+.productos img {
+    height: 10rem;
+
+}
+
+.productos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.ver-mas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    margin: 0;
+    padding: 0rem 3.2rem
+ 
+}
+.text-img-uno{
+    text-align: center;
+}
+.text-img-dos{
+    text-align: center;
+}
+.text-img-tres{
+text-align: center;
+}
+.text-img-cuatro{
+text-align: center;
+}
+
+/*tienda*/
+.img-tienda {
+    width: 88.9rem;
+}
+
+.todos-los-productos {
+    position: absolute;
+    top: 30rem;
+    right: 32rem;
+    font-size:xx-large ;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+.menu-secundario{
+    height: auto;
+    background-color: black;
+
+}
+.nav-item ::first-letter{
+    text-transform: uppercase;
+}
+
+
+.img-productos img {
+    height: 400px;
+    margin: 50px;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.buscador-tienda {
+    position: absolute;
+    top: 35rem;
+    right: 36rem;
+}
+
+/*preguntas frecuentes*/
+
+.preguntas h2 {
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+.subtitulo{
+text-transform: lowercase;
+}
+.subtitulo:first-letter{
+    text-transform: uppercase;
+}
+.texto-preguntas-frecuentes{
+    margin-bottom: 2rem;
+}
+    
+
+.preguntas p {
+    color: white;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.preguntas {
+    background-color: gray;
+    padding: 10px;
+    
+}
+
+/*contactos*/
+.fondo-contact {
+    width: 88.8rem
+}
+
+.datos {
+    position: absolute;
+    top: 500px;
+    font-size: larger;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+.boton-formulario{
+    margin: 1rem 2rem 0rem 37rem;
+    padding: 0.1rem 6rem;
+
+}
+.mb-3 ::first-letter{
+    text-transform: uppercase;
+}
+
+
+/*CARRITO*/
+
+.imagen-carrito{
+    width: 15rem;
+    height: 15rem;
+}
+.table{
+    vertical-align: middle;
+    text-align: center;
+    font-size:larger;
+}
+.table ::first-letter{
+    text-transform: uppercase;
+}
+
+.carrito{
+    text-align: center;
+    font-size:xx-large;
+    text-transform: lowercase;
+}
+.carrito:first-letter{
+text-transform: uppercase;
+}
+
+
+.finalizar-compra {
+    text-align: center;
+    margin: 5px;
+    padding: 5px 100px;
+
+}
+
+
+
+.pie {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 0.5rem;
+    
+}
+
+.fondo-color{
+    background-color: gray;
+}
+
+
+@media (max-width:390px) {
+
+    .logo {
+        width: 50px;
+        margin: auto;
+    }
+
+    .imagen-principal {
+        width: 100vw;
+    }
+
+    .productos {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "imagen-uno"
+            "imagen-dos"
+            "imagen-tres"
+            "imagen-cuatro"
+        ;
+    }
+
+    .buscador {
+        visibility: hidden;
+
+    }
+
+
+    .text-img-uno {
+        width: 100vw;
+        text-align: center;
+        background-color: gray;
+        margin-bottom: 0rem;
+        text-transform: uppercase;
+    }
+    .text-img-dos{
+        
+        text-align: center;
+        background-color: gray;
+        margin-bottom: 0rem;
+        text-transform: uppercase;
+
+    }
+    .text-img-tres{
+        width: 100vw;
+        text-align: center;
+        background-color: gray;
+        margin-bottom: 0rem;
+        text-transform: uppercase;
+
+    }
+    .text-img-cuatro{
+        width: 100vw;
+        text-align: center;
+        background-color: gray;
+        margin-bottom: 0rem;
+        text-transform: uppercase;
+
+    }
+
+    .imagen-uno {
+        padding: 1rem 8.4rem 1rem 8rem;
+        background-color: black;
+    }
+    .imagen-dos{
+        padding: 1rem 10rem 1rem 8rem;
+        background-color: black;
+    }
+    .imagen-tres{
+        padding: 1rem 8.4rem 1rem 8rem;
+        background-color: black;
+    }
+    .imagen-cuatro{
+        padding: 1rem 8.4rem 1rem 8rem;
+        background-color: black;
+    }
+    .ver-mas{
+        width: 100vw;
+    }
+    .navbar-nav{
+        font-size: medium;
+        text-align: right;
+    }
+    .dropdown-menu{
+        height: auto;
+    }
+
+    /*tienda media*/
+    .img-tienda {
+        width: 100vw;}
+
+.img-productos img{
+    margin: auto;
+    width: 400px;
+    padding: 40px;
+}
+.navbar-toggler{
+background-color: gray;
+}
+/*contacto*/
+.datos{
+    top: 11rem;
+    margin-left: 1rem;
+}
+.fondo-contact{
+    width: 100vw;
+}
+.datos-contactanos{
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+.datos-empresa{
+    font-size: 0.6rem;
+}
+.boton-formulario{
+    margin-top: 0.2rem;
+    margin-left: 5.1rem;
+}
+
+/*carrito*/
+.imagen-carrito{
+    width: 7rem;
+    height: 7rem;
+}
+.finalizar-compra{
+    padding: 0rem;
+    width: 10rem;
+    margin-left: 3.5rem;
+}
+}
